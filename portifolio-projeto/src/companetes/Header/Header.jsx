@@ -1,36 +1,40 @@
-import logo  from '../../assets/imgs/corinthians-1.svg';
+import React from 'react';
+import { Link } from "react-router-dom";
+import logo from '../../assets/imgs/logo.png'
 function Header(){
 
 
 
     return (
       <>
-      <div class="bg-gradient-to-r from-blue-500 to-green-500 flex flex-col h-screen">
-    <nav class="bg-white py-6 px-8 flex justify-between items-center">
-        <a href="#" class="text-xl font-bold text-gray-800">equipe timao</a>
-        <ul class="flex space-x-6">
-            <li><a href="#" class="text-gray-800">Home</a></li>
-            <li><a href="#" class="text-gray-800">About</a></li>
-            <li><a href="#" class="text-gray-800">Services</a></li>
-            <li><a href="#" class="text-gray-800">Contact</a></li>
-        </ul>
-    </nav>
-    <header class="flex-grow flex flex-col justify-center items-center px-8">
-        <h1 class="text-5xl font-bold text-white text-center mb-8">Welcome to Brand Name</h1>
-        <p class="text-white text-lg text-center mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            sagittis lobortis sapien, eu tincidunt metus semper eget. Sed at malesuada arcu. Pellentesque habitant morbi
-            tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        <a href="#"
-            class="text-lg bg-yellow-500 hover:bg-yellow-600 text-white py-4 px-6 rounded-lg font-bold shadow-md =">Get
-            started
-        </a>
-    </header>
-</div>
-      
 
+
+    <nav className="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-white shadow sm:items-baseline w-full">
+
+      <div className="mb-2 sm:mb-0 flex flex-row">
+        <div className="h-10 w-10 self-center mr-2">
+          <img className="h-10 w-10 self-center" src={logo} alt="Logo" />
+        </div>
+        <div>
+          <a href="/home" className="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">Equipe Timão</a><br />
+          <span className="text-xs text-grey-dark">Alunos Fiap 1ESPB</span>
+        </div>
+      </div>
+
+      <div className="sm:mb-0 self-center">
+        <a href="#" className="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">home</a>
+        <a href="#" className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Nossos Projetos</a>
+        <a href="#" className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Contato</a>
+      </div>
+    </nav>
+
+
+
+ 
       </>
     )
-  }
+    }
+  
   
   export default Header
   
