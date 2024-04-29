@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 
 
 function Banner() {
-  const lines = ["Welcome to", "My Portfolio,", "I am Web Developer."];
+  const lines = ["Welcome to", "Our Portfolio,", "We are Web Developers."];
   const [currentLine, setCurrentLine] = useState(0);
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
-  const [typingSpeed, setTypingSpeed] = useState(100); // Velocidade de digitação
-  const [pauseTime, setPauseTime] = useState(1500); // Tempo para pausar após exibir a frase completa
+  const [typingSpeed, setTypingSpeed] = useState(100);
+  const [pauseTime, setPauseTime] = useState(1500); 
 
   useEffect(() => {
     const timeout = setTimeout(() => {
