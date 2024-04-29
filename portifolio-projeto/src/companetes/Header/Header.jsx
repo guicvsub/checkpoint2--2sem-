@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Form, Link } from "react-router-dom";
 import logo from '../../assets/imgs/logo.png'
+import Projects from '../projects/projects';
 function Header(){
 
 
@@ -22,9 +23,10 @@ function Header(){
       </div>
 
       <div className="sm:mb-0 self-center">
-        <a href="#" className="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">home</a>
-        <a href="#" className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Nossos Projetos</a>
-        <a href="#" className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Contato</a>
+        <Link to='/'  className="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Home</Link >
+        <Link to='/Team'  className="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Team</Link >
+          <Link to="/ListProjects" className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Nossos Projetos</Link>
+        <Link to="/contato" className="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Contato</Link>
       </div>
     </nav>
 

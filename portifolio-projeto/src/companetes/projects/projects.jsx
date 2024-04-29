@@ -8,7 +8,7 @@ function Projects(){
         <>
        <Header />
             
-        <section class="flex flex-col justify-center max-w-6xl min-h-screen px-4 py-10 mx-auto sm:px-6">
+        <section class="flex flex-col justify-center max-w-6xl min-h-screen px-4 py-10 mx-auto sm:px-6 -mt-16000000000000000000000">
             <div class="flex flex-wrap items-center justify-between mb-8">
                 <h2 class="mr-10 text-4xl font-bold leading-none md:text-5xl">
                     Projetos

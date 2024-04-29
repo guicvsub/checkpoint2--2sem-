@@ -7,7 +7,7 @@ function Banner() {
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100); // Velocidade de digitação
-  const [pauseTime, setPauseTime] = useState(2000); // Tempo para pausar após exibir a frase completa
+  const [pauseTime, setPauseTime] = useState(1500); // Tempo para pausar após exibir a frase completa
 
   useEffect(() => {
     const timeout = setTimeout(() => {
