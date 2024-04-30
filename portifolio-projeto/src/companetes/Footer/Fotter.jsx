@@ -21,14 +21,13 @@ function Footer() {
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
         </a>
-        <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
-        </a>
+    
+        
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
         </a>
     </div>
-            <p>&copy; todos os diretos reservados equipe timao.</p>
+            <p>&copy; todos os direitos reservados equipe timao.</p>
         </div>
     </footer>
 </div>

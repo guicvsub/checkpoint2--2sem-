@@ -4,8 +4,10 @@ import { Link } from "react-router-dom"
 import Header from "../Header/Header"
 import Footer from "../Footer/Fotter"
 function Projects(){
+    
     return(
         <>
+        
        <Header />
             
         <section class="flex flex-col justify-center max-w-6xl min-h-screen px-4 py-10 mx-auto sm:px-6 -mt-16000000000000000000000">
@@ -24,7 +26,7 @@ function Projects(){
                         <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400 text">
                             <div>
                                 <a href="#"
-                                    class="inline-block mb-4 text-xs font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Plataforma Icr </a>
+                                    class="inline-block mb-4 text-xs font-bold capitalize border-b-2 text-purple-900 hover:text-blue-600">Plataforma Icr </a>
                                 <a href="#"
                                     class="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
                                     Kahoot Educação, Saúde e Diversão
@@ -36,7 +38,7 @@ function Projects(){
                             </div>
                             <div>
                         <a to="/listProjects"
-                                    class="inline-block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600"> Github
+                                    class="inline-block pb-1 mt-2 text-base font-black text-purple-900 uppercase border-b border-transparent hover:border-blue-600"> Github
                                     </a>
                             </div>
                         </div>
@@ -96,7 +98,7 @@ function Projects(){
                             </div>
                             <div>
                                 <a href="/listProjects"
-                                    class="inline-block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600">
+                                    class="inline-block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600">read more
                                    </a>
                             </div>
                         </div>
